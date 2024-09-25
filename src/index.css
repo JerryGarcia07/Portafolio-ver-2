@@ -5,7 +5,7 @@
   --three-color: #0e8388;
   --four-color: #cbe4de;
   --white-pure: #fff;
-  --font-main: "Archivo Black", sans-serif;
+  --font-main: "Chakra Petch", sans-serif;
   --colorPure: #fff;
 }
 
@@ -89,6 +89,17 @@ p {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
 }
 
 /* ************************ Components *********************** */
@@ -419,6 +430,10 @@ select option {
   padding: 0;
 }
 
+.home-subTitle {
+  font-size: 1.5rem;
+}
+
 .home-subTitle span {
   color: var(--three-color);
 }
@@ -487,9 +502,10 @@ select option {
     flex-grow: 2;
   }
 
-  .home-info h2 {
-    font-size: 2rem;
+  .home-info h1 {
+    font-size: 3rem;
     text-align: left;
+    padding-bottom: 1rem;
   }
 
   .home-info h3 {

@@ -11,12 +11,12 @@ const initialMaqueEs = ProyectMaque["ProyectMaqEs"].slice().reverse();
 const initialMaqueEn = ProyectMaque["ProyectMaqEn"].slice().reverse();
 const translations = {
   es: {
-    homeTitle: "Hola, Soy Jerry",
+    homeTitle: "Hola, Soy Jerry Garcia",
     homeSubTitle: "Soy",
     homeSubTitle1: "Programador Front-End",
     homeContent:
       "Soy egresado de Ingeniería de Sistemas (UCV) con experiencia en desarrollo web a través de prácticas en la USS y Ocassione. Me considero perseverante, comprometido, creativo y con habilidades en trabajo en equipo y comunicación. Actualmente, busco desarrollar una línea de carrera en el ámbito web.",
-    homebutton: "Descargar CV",
+    homebutton: "Ver mi CV",
     navHome: "Home",
     navProyect: "Proyectos",
     navSkill: "Habilidades",

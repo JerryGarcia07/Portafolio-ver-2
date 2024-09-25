@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <section className="about home-container">
         <div className="home-info">
-          <h2>{texts.homeTitle}</h2>
-          <h3 className="home-subTitle">
+          <h1 className="bangers-regular">{texts.homeTitle}</h1>
+          <h3 className="home-subTitle chakra-petch-bold-italic">
             {texts.homeSubTitle} <span>{texts.homeSubTitle1}</span>
           </h3>
           <p>{texts.homeContent}</p>
