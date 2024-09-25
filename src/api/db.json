@@ -1,150 +1,319 @@
 {
   "ProyectWebEs": [
     {
-      "id": "Proweb00",
-      "nombre": "Portafolio CV ver.2",
-      "descripcion": "Tuve que realizar un nuevo rediseño a mi portafolio, al aprender React, y como práctica, lo aplique en este nuevo proyecto, facilitando varios cosas que tenía planeado realizar, algo que mi portafolio anterior carecía.",
-      "tecnologia": "Figma, HTML, CSS, JavaScrips, React",
-      "link": "https://pandaasia.github.io/Portafolio-ver-2/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/maqueta06.jpg"
-    },
-    {
       "id": "Proweb01",
       "nombre": "Sociable OFT",
       "descripcion": "Sociable OFT es una empresa de software, cuya funcionalidad es de desarrollo de páginas web hacia otras empresas, era un proyecto que inicio gracias a un compañero de la universidad, mi participación fue en la parte de maquetación y desarrollo de esta web, mientras mi compañero es de back-end. En esta experiencia aprendí sobre conceptos básicos del desarrollo web.",
-      "tecnologia": "Adobe XD, HTML, CSS, JavaScrips",
-      "link": "https://github.com/PandaAsia/Sociable/tree/main/sociable",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/Sociable/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Sociable"
     },
     {
       "id": "Proweb02",
       "nombre": "Gfriend",
       "descripcion": "Una vez aprendió sobre los fundamentos del desarrollo web, realice un página muy básica que mi grupo musical favorito, aprendí también sobre la maquetación, como novato, el diseño está inspirado de otra página web, y al terminar aún me falta mucho que aprender.",
-      "tecnologia": "Adobe XD, HTML, CSS",
-      "link": "https://github.com/PandaAsia/Gfriend/tree/main/Gfriend",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS"],
+      "link": "https://pandaasia.github.io/Gfriend/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Gfriend"
     },
     {
       "id": "Proweb03",
       "nombre": "Elimar Moda",
       "descripcion": "Elimar Moda es una empresa de costureros, realizar trajes y vestido a medida, ellos necesitaban una página web, un e-commerce, para poder vender sus productos, era una gran oportunidad para ellos, este proyecto me encargué en la parte de front-end, aprendí más temas de css, como son lo flexbox y grid, y animación, y fundamento de javascrips.",
-      "tecnologia": "Adobe XD, HTML, CSS, Java Scrips",
-      "link": "https://github.com/PandaAsia/Elimar/tree/main/Elimar",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/Elimar/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Elimar"
     },
     {
       "id": "Proweb04",
       "nombre": "Prueba Stroop",
       "descripcion": "Al aprender los fundamentos de javascrip, desarrolle una web, la inspiración fue la prueba stroop, una evaluación de test cognitivo, que evalúa la atención, pude replicar todas las funciones como reglas del test, donde al final te muestra un resultado, con el proyecto me di cuenta lo mucho que me falta, para realizar proyecto muy grandes debo tener conocimiento más sólido.",
-      "tecnologia": "HTML, CSS, Java Scrip",
-      "link": "https://github.com/PandaAsia/game-color",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.jpg"
+      "tecnologia": ["HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/game-color/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/game-color"
     },
     {
       "id": "Proweb05",
       "nombre": "Portafolio CV ver.1",
       "descripcion": "Cuando obtuve los conocimientos necesarios, pude realizar mi portafolio personalizado, en este proyecto, me inspire de varios portafolios, como agregar animaciones únicas como estilo, que demostrara el conocimiento adquirido en ese momento.",
-      "tecnologia": "Figma, Photoshop, Illustrator, Html, Css, Javascrip",
+      "tecnologia": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "link": "https://pandaasia.github.io/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/pandaasia.github.io"
     },
     {
       "id": "Proweb06",
       "nombre": "Anime",
       "descripcion": "Es un Proyecto Personal de anime, este proyecto lo diseñe como desarrolle en la parte de front-end y es estática, ya que aún me falta varios conocimientos de back-end para poder completarlo, pero lo voy a continuar, pero avanzando poco a poco, cuando voy adquiriendo conocimientos.",
-      "tecnologia": "Figma, Html, css, javascrips",
+      "tecnologia": ["Figma", "Html", "CSS", "JavaScript"],
       "link": "https://pandaasia.github.io/AnimeWeb/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/AnimeWeb"
     },
     {
       "id": "Proweb07",
       "nombre": "Anime-Folder",
       "descripcion": "Es un Proyecto Personal de anime, este proyecto utilice la API jikan, que es un repositorio de anime, diseñe una página, para mostrar toda la información, en el proyecto aprendí Bootstrap, para la maquetación de la página, reforcé mis conocimiento en React, un proyecto que disfrute desarropando.",
-      "tecnologia": "Figma, Html, css, javascrips, React, Bootstrap",
+      "tecnologia": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Bootstrap"
+      ],
       "link": "https://pandaasia.github.io/AnimeFolder/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/AnimeFolder"
     },
     {
       "id": "Proweb08",
       "nombre": "Pokemos Favoritos",
       "descripcion": "Bienvenido a nuestro portal Pokémon, el destino definitivo para los amantes de estas fascinantes criaturas. Aquí, encontrarás la herramienta perfecta para descubrir a tu compañero Pokémon ideal. Organizados por tipo y generación, nuestra extensa base de datos te permite explorar y seleccionar entre una variedad de Pokémon. ¡Empieza tu viaje y encuentra a tu Pokémon favorito hoy mismo!",
-      "tecnologia": "Figma, Html, css, javascrips, React",
+      "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
       "link": "https://pandaasia.github.io/Favorite-Pokemon/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
+    },
+    {
+      "id": "Proweb09",
+      "nombre": "Tesla",
+      "descripcion": "Es una copia de la pagina principal de la empresa Tesla, este proyecto, lo realice para practicar mi JavaScript, como mi css y tener un menor manejo en React",
+      "tecnologia": ["HTML", "CSS", "JavaScript", "React", "tailwind"],
+      "link": "https://pandaasia.github.io/Tesla-Copy/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect09.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Tesla-Copy"
+    },
+    {
+      "id": "Proweb10",
+      "nombre": "TO-DO List",
+      "descripcion": "Es un proyecto lo realice por que es una prueba tecnica de una empresa que realice y simplemente lo hice copiando casi exacto de esa prueba tecnica",
+      "tecnologia": ["HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/To-DO-List/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect10.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/To-DO-List"
     }
   ],
   "ProyectWebEn": [
     {
-      "id": "Proweb00",
-      "nombre": "Portafolio CV ver.2",
-      "descripcion": "I had to make a new redesign to my portfolio, by learning React, and as a practice, I applied it in this new project, facilitating several things that I had planned to do, something that my previous portfolio lacked.",
-      "tecnologia": "Figma, HTML, CSS, JavaScrips, React",
-      "link": "https://pandaasia.github.io/Portafolio-ver-2/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/maqueta06.jpg"
-    },
-    {
       "id": "Proweb01",
       "nombre": "Sociable OFT",
       "descripcion": "Sociable OFT is a software company, whose functionality is to develop web pages for other companies. It was a project that I started thanks to a university classmate. My participation was in the layout and development of this website, while my classmate It's back-end. In this experience I learned about basic concepts of web development.",
-      "tecnologia": "Adobe XD, HTML, CSS, Java Scrips",
-      "link": "https://github.com/PandaAsia/Sociable/tree/main/sociable",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/Sociable/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Sociable"
     },
     {
       "id": "Proweb02",
       "nombre": "Gfriend",
       "descripcion": "Once I learned about the fundamentals of web development, I made a very basic page for my favorite musical group, I also learned about layout, as a newbie, the design is inspired from another web page, and when I finish I still have a lot to learn.",
-      "tecnologia": "Adobe XD, HTML, CSS",
-      "link": "https://github.com/PandaAsia/Gfriend/tree/main/Gfriend",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS"],
+      "link": "https://pandaasia.github.io/Gfriend/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Gfriend"
     },
     {
       "id": "Proweb03",
       "nombre": "Elimar Moda",
       "descripcion": "Elimar Moda is a company of seamstresses, making custom suits and dresses, they needed a website, an e-commerce, to be able to sell their products, it was a great opportunity for them, I was in charge of this project on the front-end part , I learned more CSS topics, such as flexbox and grid, and animation, and the foundation of javascript.",
-      "tecnologia": "Adobe XD, HTML, CSS, Java Scrips",
-      "link": "https://github.com/PandaAsia/Elimar/tree/main/Elimar",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.jpg"
+      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/Elimar/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Elimar"
     },
     {
       "id": "Proweb04",
       "nombre": "Test Stroop",
       "descripcion": "When learning the fundamentals of javascrip, I developed a website, the inspiration was the stroop test, a cognitive test evaluation, which evaluates attention, I was able to replicate all the functions as rules of the test, where at the end it shows you a result, with the project I realized how much I lack, to carry out very large projects I must have more solid knowledge.",
-      "tecnologia": "HTML, CSS, Java Scrip",
-      "link": "https://github.com/PandaAsia/game-color",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.jpg"
+      "tecnologia": ["HTML", "CSS", "JavaScript"],
+      "link": "https://pandaasia.github.io/game-color/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/game-color"
     },
     {
       "id": "Proweb05",
       "nombre": "CV Portfolio ver.1",
       "descripcion": "When I obtained the necessary knowledge, I was able to make my personalized portfolio. In this project, I was inspired by several portfolios, such as adding unique animations as a style, which demonstrated the knowledge acquired at that time.",
-      "tecnologia": "Figma, Photoshop, Illustrator, Html, Css, Javascrip",
+      "tecnologia": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "link": "https://pandaasia.github.io/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/pandaasia.github.io"
     },
     {
       "id": "Proweb06",
       "nombre": "Anime",
       "descripcion": "It is a Personal Anime Project, I designed this project as I developed in the front-end part and it is static, since I still lack some back-end knowledge to be able to complete it, but I am going to continue it, but advancing little by little , when I am acquiring knowledge.",
-      "tecnologia": "Figma, Html, css, javascrips",
+      "tecnologia": ["Figma", "HTML", "CSS", "JavaScript"],
       "link": "https://pandaasia.github.io/AnimeWeb/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/AnimeWeb"
     },
     {
       "id": "Proweb07",
       "nombre": "Anime-Folder",
       "descripcion": "It is a Personal Anime Project, this project uses the jikan API, which is an anime repository, I designed a page to display all the information, in the project I learned Bootstrap, for the layout of the page, I reinforced my knowledge in React, a project that you enjoy developing.",
-      "tecnologia": "Figma, Html, css, javascrips, React, Bootstrap",
+      "tecnologia": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Bootstrap"
+      ],
       "link": "https://pandaasia.github.io/AnimeFolder/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/AnimeFolder"
     },
     {
       "id": "Proweb08",
       "nombre": "Favorite Pokemos",
       "descripcion": "Welcome to our Pokémon portal, the definitive destination for lovers of these fascinating creatures. Here, you will find the perfect tool to discover your ideal Pokémon partner. Organized by type and generation, our extensive database allows you to explore and select from a variety of Pokémon. Start your journey and find your favorite Pokémon today!",
-      "tecnologia": "Figma, Html, css, javascrips, React",
+      "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
       "link": "https://pandaasia.github.io/Favorite-Pokemon/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.jpg"
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
+    },
+    {
+      "id": "Proweb09",
+      "nombre": "Tesla",
+      "descripcion": "Welcome to our Pokémon portal, the definitive destination for lovers of these fascinating creatures. Here, you will find the perfect tool to discover your ideal Pokémon partner. Organized by type and generation, our extensive database allows you to explore and select from a variety of Pokémon. Start your journey and find your favorite Pokémon today!",
+      "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
+      "link": "https://pandaasia.github.io/Favorite-Pokemon/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
     }
   ]
 }

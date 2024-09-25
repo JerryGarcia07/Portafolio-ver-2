@@ -1,13 +1,14 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import LenguageContext from "../Context/LenguageContext";
-import logo from "../assets/Logo_personal.png";
+// import logo from "../assets/Logo_personal.webp";
 import ThemeContext from "../Context/ThemeContext";
 
 const Menu = () => {
   const { texts, handleLanguage } = useContext(LenguageContext);
-  const { btntheme, handleTheme } = useContext(ThemeContext);
+  const { btntheme, viewLogo, handleTheme } = useContext(ThemeContext);
   const [viewMenu, setViewMenu] = useState("");
+  const [scroll, setScroll] = useState(0);
 
   const handleMenu = () => {
     if (viewMenu === "") {
@@ -17,34 +18,66 @@ const Menu = () => {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScroll(position);
+    };
+    window.addEventListener("scroll", handleScroll);
+  }, [scroll]);
+
   return (
     <>
-      <header className="header">
-        <section className="hea-container">
+      <header className={`header ${scroll > 50 ? `header-background` : null}`}>
+        <section className={`hea-container`}>
           <div className="hea-logo">
-            <Link to="/">
-              <img src={logo} alt="Logo" />
-            </Link>
+            <NavLink to="/">
+              <img src={viewLogo} alt="Logo" />
+            </NavLink>
           </div>
           <nav className={`hea-menu ${viewMenu}`}>
-            <Link to="/" onClick={handleMenu}>
+            <NavLink
+              to="/"
+              onClick={handleMenu}
+              className={({ isActive }) => (isActive ? "activeLink" : null)}
+            >
               {texts.navHome}
-            </Link>
-            <Link to="/proyectos" onClick={handleMenu}>
+            </NavLink>
+            <NavLink
+              to="/proyectos"
+              onClick={handleMenu}
+              className={({ isActive }) => (isActive ? "activeLink" : null)}
+            >
               {texts.navProyect}
-            </Link>
-            <Link to="/habilidades" onClick={handleMenu}>
-              {texts.navSkill}
-            </Link>
-            <Link to="/formacion" onClick={handleMenu}>
+            </NavLink>
+            <NavLink
+              to="/formacion"
+              onClick={handleMenu}
+              className={({ isActive }) => (isActive ? "activeLink" : null)}
+            >
               {texts.navforma}
-            </Link>
+            </NavLink>
+            <NavLink
+              to="/habilidades"
+              onClick={handleMenu}
+              className={({ isActive }) => (isActive ? "activeLink" : null)}
+            >
+              {texts.navSkill}
+            </NavLink>
           </nav>
           <div className="hea-contexts">
-            <select name="lenguage" onChange={handleLanguage}>
+            {/* <select
+              name="lenguage"
+              onChange={handleLanguage}
+              value={
+                localStorage.getItem("lenguage") === null
+                  ? "es"
+                  : localStorage.getItem("lenguage")
+              }
+            >
               <option value="es">ES</option>
               <option value="en">EN</option>
-            </select>
+            </select> */}
             <button onClick={handleTheme} className="hea-sun-moon">
               <i className={btntheme}></i>
             </button>

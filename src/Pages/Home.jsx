@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import LenguageContext from "../Context/LenguageContext";
-import foto from "../assets/foto.png";
+import foto from "../assets/foto.webp";
 import pdf from "../assets/Garcia Tanta Jerry Anthony(CV).pdf";
 
 const Home = () => {

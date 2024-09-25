@@ -1,33 +1,24 @@
+/* eslint-disable react/prop-types */
 import { useModal } from "../hooks/useModal";
 import ModalProyect from "./ModalProyect";
 import "./Modal.css";
-import { useContext } from "react";
-import LenguageContext from "../Context/LenguageContext";
+import ProyectInfo from "./ProyectInfo";
 
-/* eslint-disable react/prop-types */
-const ModalProyects = ({ cardContent, cardBtnName }) => {
+const ModalProyects = ({ cardContent }) => {
   const [isOpenModal, openModel, closedModel] = useModal(false);
-  const { texts } = useContext(LenguageContext);
+
   return (
     <>
       <button onClick={openModel} className="Proyect-btn">
-        <img src={cardContent.img} alt="Imagen del Proyecto" />
-        <h4>{cardContent.nombre}</h4>
-      </button>
-      <ModalProyect isOpen={isOpenModal} closeModal={closedModel}>
-        <div className="Modal-img">
+        <div className="img-proyect">
           <img src={cardContent.img} alt="Imagen del Proyecto" />
         </div>
-        <div className="Modal-info">
-          <h2>{cardContent.nombre}</h2>
-          <p>{cardContent.descripcion}</p>
-          <h3>
-            {texts.technoligi}: {cardContent.tecnologia}
-          </h3>
-          <a href={cardContent.link} target="_blank" rel="noreferrer">
-            {cardBtnName}
-          </a>
+        <div className="litle-proyect">
+          <h4>{cardContent.nombre}</h4>
         </div>
+      </button>
+      <ModalProyect isOpen={isOpenModal} closeModal={closedModel}>
+        <ProyectInfo cardContent={cardContent}></ProyectInfo>
       </ModalProyect>
     </>
   );

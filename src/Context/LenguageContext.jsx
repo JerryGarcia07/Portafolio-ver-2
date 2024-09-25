@@ -1,19 +1,21 @@
 /* eslint-disable react/prop-types */
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import Proyectweb from "../api/db.json";
 import ProyectMaque from "../api/db_maque.json";
 
 const LenguageContext = createContext();
-const initialLenguage = "es";
-const initialProyect = Proyectweb["ProyectWebEs"];
-const initialMaque = ProyectMaque["ProyectMaqEs"];
+// const initialLenguage = "es";
+const initialProyectEs = Proyectweb["ProyectWebEs"].slice().reverse();
+const initialProyectEn = Proyectweb["ProyectWebEn"].slice().reverse();
+const initialMaqueEs = ProyectMaque["ProyectMaqEs"].slice().reverse();
+const initialMaqueEn = ProyectMaque["ProyectMaqEn"].slice().reverse();
 const translations = {
   es: {
     homeTitle: "Hola, Soy Jerry",
     homeSubTitle: "Soy",
     homeSubTitle1: "Programador Front-End",
     homeContent:
-      "Soy una persona perseverante y autodidacta, con muchas ganas de aprender y superarse, comprometido con mi trabajo y estudios, con el fin de adquirir nuevos conocimientos que me permitan ser cada vez más competente en mi ámbito laboral y poder cumplir mis objetivos.",
+      "Soy egresado de Ingeniería de Sistemas (UCV) con experiencia en desarrollo web a través de prácticas en la USS y Ocassione. Me considero perseverante, comprometido, creativo y con habilidades en trabajo en equipo y comunicación. Actualmente, busco desarrollar una línea de carrera en el ámbito web.",
     homebutton: "Descargar CV",
     navHome: "Home",
     navProyect: "Proyectos",
@@ -26,13 +28,13 @@ const translations = {
     skillTitle: "Habilidades y herramientas",
     formaTitle: "Formación",
     formaSubtitle01: "Educación",
-    formaSubtitle02: "Experiencia laboral",
+    formaSubtitle02: "Experiencia",
     formList01: [
       {
         id: "ed01",
         carrera: "Ingeneria de Sistema",
         lugar: "Univercidad césar vallejo, Lima",
-        fecha: "(Jun-2014/Dic-2022)",
+        fecha: "(Jun-2014/Jun-2023)",
       },
       {
         id: "ed02",
@@ -44,36 +46,46 @@ const translations = {
     formList02: [
       {
         id: "wo01",
+        trabajo: "Desarrollador de software",
         empresa: "Universidad Señor de Sipan (2022)",
-        area: "Programador front end, maquetación como el diseño del software.",
+        area: "Programador front-end, maquetador del software y diseñador.",
+        tecno: "Unreal engine, Photoshop, Illustrator y Figma.",
       },
       {
         id: "wo02",
-        empresa: "Ocassione (2019)",
-        area: "Programador front end, edición de fotografías y actualización de la base de datos.",
+        trabajo: "Desarrollador web",
+        empresa: "Ocassione (2019) - E-commerce",
+        area: "Programador front-end, edición de fotografías, actualización de la base de datos y  maquetación de la web.",
+        tecno: "Photoshop, html, css, JavaScript, MySql y WordPress.",
       },
       {
         id: "wo03",
-        empresa: "Sociable oft (2018)",
-        area: "Programador front end, maquetación web y edición de fotografías.",
+        trabajo: "Desarrollador front-end",
+        empresa: "Sociable oft (2018) - Servicio de Desarrollo Web",
+        area: "Programador front end, maquetación web, diseñador y edición de fotografías .",
+        tecno: "Photoshop, Illustrator, Abode XD, html, css y JavaScript.",
       },
       {
         id: "wo04",
-        empresa: "Proyecto de Investigación (Tesis) (2021-2022)",
-        area: "Programador front end, maquetación y diseño del software.",
+        trabajo: "Desarrollador de software",
+        empresa: "Proyecto Personal (2021-2022)",
+        area: "Programador front-end, maquetación y diseño del software.",
+        tecno: "Unreal engine, photoshop, illustrator y figma.",
       },
     ],
-    footer: "©2023 | Diseñado y codificado por Jerry Garcia",
+    footer: "©2024 | Diseñado y codificado por Jerry Garcia",
     technoligi: "Tecnologías",
-    viewWeb: "ir a web",
-    viewLayout:"ver maquetación"
+    viewWeb: "Ir a la web",
+    viewgit: "Ir a github",
+    viewLayout: "ver maquetación",
+    rol: "Rol",
   },
   en: {
     homeTitle: "hello, I am Jerry",
     homeSubTitle: "I am",
     homeSubTitle1: "Front End developer",
     homeContent:
-      "I am a persevering and self-taught person, eager to learn and improve, committed to my work and studies, in order to acquire new knowledge that allows me to be increasingly competent in my work environment and be able to meet my goals.",
+      "I am a graduate of the Systems Engineering degree at the UCV. Over the last year, I have applied self-learning to specialize in Frontend. I did an internship at Sociable-Oft and occasionally worked as a web developer. I consider myself a persevering, cheerful, patient person with teamwork skills. ",
     homebutton: "Download CV",
     navHome: "Home",
     navProyect: "Projects",
@@ -86,7 +98,7 @@ const translations = {
     skillTitle: "Skills & tools",
     formaTitle: "Education",
     formaSubtitle01: "Academic training",
-    formaSubtitle02: "Work experience",
+    formaSubtitle02: "Experience",
     formList01: [
       {
         id: "ed01",
@@ -104,49 +116,76 @@ const translations = {
     formList02: [
       {
         id: "wo01",
+        trabajo: "Software developer",
         empresa: "Universidad Señor de Sipan (2022)",
         area: "Front-end programmer, layout and software design.",
+        tecno: "Unreal engine, Photoshop, Illustrator y Figma.",
       },
       {
         id: "wo02",
-        empresa: "Ocassione (2019)",
+        trabajo: "Web developer",
+        empresa: "Ocassione (2019) - E-commerce",
         area: "Front-end programmer, photo editing and upgrade of data base.",
+        tecno: "Unreal engine, Photoshop, Illustrator y Figma.",
       },
       {
         id: "wo03",
-        empresa: "Sociable oft (2018)",
+        trabajo: "Front-end developer",
+        empresa: "Sociable oft (2018) - Web Development Service",
         area: "Front-end programmer, web layout and photo editing.",
+        tecno: "Photoshop, Illustrator, Abode XD, html, css y JavaScript.",
       },
       {
         id: "wo04",
-        empresa: "Proyecto de Investigación (Tesis) (2021-2022)",
+        trabajo: "Software developer",
+        empresa: "Personal project (2021-2022)",
         area: "Front-end programmer, layout and software design.",
+        tecno: "Unreal engine, photoshop, illustrator y figma.",
       },
     ],
-    footer: "©2023 | Designed and coded by Jerry Garcia",
+    footer: "©2024 | Designed and coded by Jerry Garcia",
     technoligi: "Technologies",
     viewWeb: "go to website",
-    viewLayout:"see layout"
+    viewgit: "go to github",
+    viewLayout: "see layout",
+    rol: "Role",
   },
 };
 
 const LenguageProvider = ({ children }) => {
-  const [lenguage, setLenguage] = useState(initialLenguage);
-  const [texts, setText] = useState(translations[lenguage]);
-  const [proWeb, setProWeb] = useState(initialProyect);
-  const [proMaque, setProMaque] = useState(initialMaque);
+  const [texts, setText] = useState(translations.es);
+  const [proWeb, setProWeb] = useState(initialProyectEs);
+  const [proMaque, setProMaque] = useState(initialMaqueEs);
+
+  useEffect(() => {
+    if (localStorage.getItem("lenguage") === null) {
+      localStorage.setItem("lenguage", "es");
+    }
+
+    if (localStorage.getItem("lenguage") === "es") espanol();
+
+    if (localStorage.getItem("lenguage") === "en") english();
+  }, []);
+
+  const espanol = () => {
+    setText(translations.es);
+    setProWeb(initialProyectEs);
+    setProMaque(initialMaqueEs);
+    localStorage.setItem("lenguage", "es");
+  };
+
+  const english = () => {
+    setText(translations.en);
+    setProWeb(initialProyectEn);
+    setProMaque(initialMaqueEn);
+    localStorage.setItem("lenguage", "en");
+  };
 
   const handleLanguage = (e) => {
     if (e.target.value === "es") {
-      setLenguage("es");
-      setText(translations.es);
-      setProWeb(Proyectweb["ProyectWebEs"]);
-      setProMaque(ProyectMaque["ProyectMaqEs"]);
+      espanol();
     } else {
-      setLenguage("en");
-      setText(translations.en);
-      setProWeb(Proyectweb["ProyectWebEn"]);
-      setProMaque(ProyectMaque["ProyectMaqEn"]);
+      english();
     }
   };
   const data = { texts, handleLanguage, proWeb, proMaque };
