@@ -116,7 +116,6 @@ p {
   display: block;
   z-index: 4;
   width: 100vw;
-  height: 12vh;
   background-color: var(--firts-color);
 }
 
@@ -126,9 +125,9 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  /* .header {
     height: 10vh;
-  }
+  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -275,12 +274,20 @@ p {
 
 .hea-logo a img {
   transition: transform 0.3s ease;
-  width: auto;
-  height: 100%;
+  min-width: 5rem;
+  max-width: 9rem;
+  height: auto;
 }
 
 .hea-logo a img:hover {
   transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+  .hea-logo a img {
+    min-width: 8rem;
+    max-width: 12rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -288,6 +295,11 @@ p {
     display: block;
     width: 100%;
     padding: 0.5rem;
+  }
+
+  .hea-logo a img {
+    min-width: 3rem;
+    max-width: 5rem;
   }
 }
 
@@ -692,10 +704,22 @@ select option {
 
 /* ** Habilidades ** */
 .hab-container {
-  padding-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  /* padding-top: 1rem; */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); */
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
+
+.hab-dom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
 .logo-cvg i {
   font-size: 7rem;
   color: var(--four-color);
@@ -720,13 +744,13 @@ select option {
 
 @media screen and (min-width: 768px) {
   .hab-container {
-    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(33%, 1fr)); */
   }
 }
 
 @media screen and (min-width: 1024px) {
   .hab-container {
-    grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr)); */
   }
   .logo-cvg {
     padding: 1rem 0;
