@@ -13,7 +13,7 @@ const Home = () => {
           <h3 className="home-subTitle chakra-petch-bold-italic">
             {texts.homeSubTitle} <span>{texts.homeSubTitle1}</span>
           </h3>
-          <p>{texts.homeContent}</p>
+          <p className="chakra-petch-medium-italic">{texts.homeContent}</p>
           <div className="home-social">
             <a
               href="https://github.com/PandaAsia"
@@ -31,7 +31,7 @@ const Home = () => {
             </a>
           </div>
           <a
-            className="home-btn-dow"
+            className="home-btn-dow chakra-petch-bold-italic"
             href={pdf}
             target="_blank"
             rel="noreferrer"

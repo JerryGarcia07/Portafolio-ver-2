@@ -102,6 +102,11 @@ p {
   font-weight: 700;
 }
 
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+}
+
 /* ************************ Components *********************** */
 
 /* ** NAVBAR-GENERAL ** */
@@ -173,6 +178,8 @@ p {
   color: var(--white-pure);
   font-size: 2rem;
   padding: 1rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
 }
 
 .hea-menu a:hover {
@@ -365,7 +372,6 @@ select option {
     display: flex;
     justify-content: center;
     width: 100%;
-    display: block;
     position: relative;
     bottom: 0;
   }
@@ -403,13 +409,22 @@ select option {
 
 @media screen and (min-width: 768px) {
   .about {
-    padding: 8rem 6rem 1rem 6rem;
+    /* padding: 8rem 6rem 1rem 6rem; */
+    padding: 0 10rem;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    padding: 0 10rem;
+    /* padding: 0 10rem; */
+    min-width: 65rem;
+    max-width: 65rem;
+    align-items: center;
     position: relative;
   }
 
@@ -430,6 +445,10 @@ select option {
   padding: 0;
 }
 
+.home-info h1 {
+  padding-bottom: 1.5rem;
+}
+
 .home-subTitle {
   font-size: 1.5rem;
 }
@@ -439,7 +458,7 @@ select option {
 }
 
 .home-social {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 1rem;
 }
 
@@ -465,7 +484,7 @@ select option {
   border: none;
   width: 100%;
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   margin-bottom: 1rem;
   box-sizing: border-box;
   transition: all 0.3s ease;
@@ -484,6 +503,13 @@ select option {
   aspect-ratio: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .home-photo img {
+    min-width: 15rem;
+    max-width: 20rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .home-container {
     display: flex;
@@ -495,7 +521,7 @@ select option {
   }
   .home-info {
     width: 100%;
-    padding: 1rem 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -503,7 +529,7 @@ select option {
   }
 
   .home-info h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     padding-bottom: 1rem;
   }
@@ -513,13 +539,15 @@ select option {
   }
 
   .home-info p {
-    padding-top: 0.5rem;
-    font-size: 0.9rem;
+    /* padding-top: 0.5rem; */
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
   }
 
   .home-social {
     display: flex;
     margin-top: 0rem;
+    margin-bottom: 0.5rem;
   }
 
   .home-social a {
@@ -528,10 +556,12 @@ select option {
   }
 
   .home-btn-dow {
-    width: 60%;
+    min-width: 30%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+    padding: 0.3rem;
   }
 
   .home-photo {
@@ -547,7 +577,8 @@ select option {
   .home-photo img {
     margin: 0;
     border-radius: 50%;
-    width: 80%;
+    min-width: 20rem;
+    max-width: 25rem;
     height: auto;
   }
 }
@@ -876,6 +907,9 @@ select option {
   position: absolute;
   z-index: 999;
   min-height: 100vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 .area {
@@ -997,5 +1031,13 @@ select option {
       opacity: 0;
       border-radius: 50%;
     }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .context {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

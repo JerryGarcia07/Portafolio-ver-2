@@ -5,7 +5,7 @@ import LenguageContext from "../Context/LenguageContext";
 import ThemeContext from "../Context/ThemeContext";
 
 const Menu = () => {
-  const { texts, handleLanguage } = useContext(LenguageContext);
+  const { texts } = useContext(LenguageContext);
   const { btntheme, viewLogo, handleTheme } = useContext(ThemeContext);
   const [viewMenu, setViewMenu] = useState("");
   const [scroll, setScroll] = useState(0);
