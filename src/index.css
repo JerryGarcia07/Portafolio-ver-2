@@ -7,6 +7,8 @@
   --white-pure: #fff;
   --font-main: "Chakra Petch", sans-serif;
   --colorPure: #fff;
+  --colorTranspren: #0e838850;
+  /* los dos ultimos mide la opacidad este caso 50% */
 }
 
 [tema="light"] {
@@ -718,6 +720,15 @@ select option {
   align-items: center;
   justify-content: space-evenly;
   gap: 2rem;
+}
+
+.hab-conte {
+  padding: 1rem 0;
+  background-color: var(--three-color);
+}
+
+.hab-conte h3 {
+  padding-bottom: 2rem;
 }
 
 .logo-cvg i {

@@ -10,7 +10,7 @@ const Skills = () => {
     <section className="about conteiner-section">
       <h2 className="title-container">{texts.skillTitle}</h2>
       <article className="hab-container">
-        <div>
+        <div className="hab-conte ">
           <h3>Dominadas</h3>
           <div className="hab-dom">
             <div className="logo-cvg">
@@ -62,7 +62,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="hab-conte">
             <h3>Aprendiendo</h3>
             <div className="hab-dom">
               <div className="logo-cvg">
@@ -75,7 +75,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="hab-conte ">
             <h3>Exploradas</h3>
             <div className="hab-dom">
               <div className="logo-cvg">
