@@ -7,7 +7,7 @@
   --white-pure: #fff;
   --font-main: "Chakra Petch", sans-serif;
   --colorPure: #fff;
-  --colorTransparen: #0e838850;
+  --colorTransparen: #0e838840;
   /* los dos ultimos mide la opacidad este caso 50% */
 }
 
@@ -773,10 +773,6 @@ select option {
 }
 
 @media screen and (min-width: 768px) {
-  .hab-container {
-    /* grid-template-columns: repeat(auto-fit, minmax(33%, 1fr)); */
-  }
-
   .hab-dom {
     gap: 1rem;
   }
@@ -786,8 +782,11 @@ select option {
   }
 
   .habl-container {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+  }
+  .hab-conte {
+    padding: 2rem 1rem;
   }
 }
 
@@ -796,6 +795,11 @@ select option {
     /* grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr)); */
     flex-direction: row;
   }
+
+  .hab-container-2 {
+    flex-direction: column;
+  }
+
   .logo-cvg {
     padding: 1rem 0;
   }
@@ -816,6 +820,17 @@ select option {
   .hab-conte {
     padding: 2rem 1rem;
   }
+
+  .hab-conte h3 {
+    padding-bottom: 1rem;
+  }
+
+  .hab-conte-tm {
+    min-width: 25rem;
+    max-width: 35rem;
+    height: 12rem;
+  }
+
   .hab-dom {
     gap: 2rem;
   }

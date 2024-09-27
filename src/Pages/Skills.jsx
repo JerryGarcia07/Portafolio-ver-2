@@ -15,19 +15,19 @@ const Skills = () => {
           <div className="hab-dom">
             <div className="logo-cvg">
               <i className="bx bxl-html5"></i>
-              <h5>HTML</h5>
+              <h5>Html</h5>
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-css3"></i>
-              <h5>CSS</h5>
+              <h5>Css</h5>
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-javascript"></i>
-              <h5>JAVASCRIPT</h5>
+              <h5>Javascript</h5>
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-react"></i>
-              <h5>REACT</h5>
+              <h5>React</h5>
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-tailwind-css"></i>
@@ -35,34 +35,38 @@ const Skills = () => {
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-figma"></i>
-              <h5>FIGMA</h5>
+              <h5>Figma</h5>
             </div>
             <div className="logo-cvg">
-              <i className="bx bxl-visual-studio"></i>
-              <h5>VS CODE</h5>
-            </div>
-            <div className="logo-cvg">
-              <i className="bx bxl-adobe"></i>
-              <h5>ADOBE</h5>
-            </div>
-            <div className="logo-cvg">
-              <i className="bx bxl-github"></i>
-              <h5>GITHUB</h5>
+              <i className="bx bxl-markdown"></i>
+              <h5>Markdown</h5>
             </div>
             <div className="logo-cvg">
               <i className="bx bxl-git"></i>
-              <h5>GIT</h5>
+              <h5>Git</h5>
+            </div>
+            <div className="logo-cvg">
+              <i className="bx bxl-github"></i>
+              <h5>Github</h5>
+            </div>
+            <div className="logo-cvg">
+              <i className="bx bxl-visual-studio"></i>
+              <h5>VS code</h5>
+            </div>
+            <div className="logo-cvg">
+              <i className="bx bxl-adobe"></i>
+              <h5>Adobe</h5>
             </div>
             <div className="logo-cvg">
               <div className="habl-container">
                 <img src={viewResponse} alt="Responsibe" />
               </div>
-              <h5>RESPONSIVE</h5>
+              <h5>Responsivo</h5>
             </div>
           </div>
         </div>
-        <div className="hab-container">
-          <div className="hab-conte">
+        <div className="hab-container hab-container-2">
+          <div className="hab-conte hab-conte-tm">
             <h3>Aprendiendo</h3>
             <div className="hab-dom">
               <div className="logo-cvg">
@@ -70,12 +74,16 @@ const Skills = () => {
                 <h5>Typescript</h5>
               </div>
               <div className="logo-cvg">
-                <i className="bx bxl-typescript"></i>
+                <i className="bx bxl-nodejs"></i>
                 <h5>Nodejs</h5>
+              </div>
+              <div className="logo-cvg">
+                <i className="bx bxs-data"></i>
+                <h5>Base de Datos</h5>
               </div>
             </div>
           </div>
-          <div className="hab-conte">
+          <div className="hab-conte hab-conte-tm">
             <h3>Exploradas</h3>
             <div className="hab-dom">
               <div className="logo-cvg">
@@ -85,6 +93,10 @@ const Skills = () => {
               <div className="logo-cvg">
                 <i className="bx bxl-postgresql"></i>
                 <h5>Postgresql</h5>
+              </div>
+              <div className="logo-cvg">
+                <i className="bx bxl-php"></i>
+                <h5>PHP</h5>
               </div>
             </div>
           </div>
