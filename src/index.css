@@ -7,7 +7,7 @@
   --white-pure: #fff;
   --font-main: "Chakra Petch", sans-serif;
   --colorPure: #fff;
-  --colorTranspren: #0e838850;
+  --colorTransparen: #0e838850;
   /* los dos ultimos mide la opacidad este caso 50% */
 }
 
@@ -378,7 +378,7 @@ select option {
 .footer {
   font-size: 0.8rem;
   text-align: center;
-  padding: 2rem 0 0.5rem 0;
+  padding: 1rem 0 0.5rem 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -413,7 +413,7 @@ select option {
 }
 
 .about {
-  padding: 7rem 1rem 1rem 1rem;
+  padding: 7rem 1rem 0 1rem;
   text-align: center;
 }
 
@@ -431,6 +431,14 @@ select option {
     align-items: center;
     justify-content: center;
   }
+
+  .conteiner-section {
+    padding-top: 8rem;
+    height: auto;
+  }
+  .title-container {
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -438,6 +446,7 @@ select option {
     /* padding: 0 10rem; */
     min-width: 65rem;
     max-width: 65rem;
+    height: auto;
     align-items: center;
     position: relative;
   }
@@ -449,6 +458,12 @@ select option {
   .conteiner-section {
     min-height: 80vh;
     width: auto;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .title-container {
+    margin-bottom: 2rem;
   }
 }
 
@@ -712,6 +727,7 @@ select option {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  gap: 1rem;
 }
 
 .hab-dom {
@@ -719,12 +735,15 @@ select option {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+
   gap: 2rem;
 }
 
 .hab-conte {
   padding: 1rem 0;
-  background-color: var(--three-color);
+  background-color: var(--colorTransparen);
+  border-radius: 0.5rem;
+  border: solid var(--white-pure) 0.1rem;
 }
 
 .hab-conte h3 {
@@ -743,8 +762,8 @@ select option {
 }
 
 .habl-container {
-  width: 112px;
-  height: 112px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin: auto;
 }
@@ -757,27 +776,48 @@ select option {
   .hab-container {
     /* grid-template-columns: repeat(auto-fit, minmax(33%, 1fr)); */
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .hab-container {
-    /* grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr)); */
-  }
-  .logo-cvg {
-    padding: 1rem 0;
+  .hab-dom {
+    gap: 1rem;
   }
 
   .logo-cvg i {
     font-size: 5rem;
   }
 
-  .logo-cvg h5 {
-    font-size: 0.9rem;
-  }
-
   .habl-container {
     width: 80px;
     height: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hab-container {
+    /* grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr)); */
+    flex-direction: row;
+  }
+  .logo-cvg {
+    padding: 1rem 0;
+  }
+
+  .logo-cvg i {
+    font-size: 3rem;
+  }
+
+  .logo-cvg h5 {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .habl-container {
+    width: 50px;
+    height: 50px;
+  }
+  .hab-conte {
+    padding: 2rem 1rem;
+  }
+  .hab-dom {
+    gap: 2rem;
   }
 }
 
