@@ -13,7 +13,7 @@ const ModalProyects = ({ cardContent }) => {
         <div className="img-proyect">
           <img src={cardContent.img} alt="Imagen del Proyecto" />
         </div>
-        <div className="litle-proyect">
+        <div className="litle-proyect chakra-petch-bold-italic">
           <h4>{cardContent.nombre}</h4>
         </div>
       </button>

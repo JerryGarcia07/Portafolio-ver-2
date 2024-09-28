@@ -114,7 +114,7 @@
 }
 
 .Modal-info h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .Modal-info p {
@@ -164,6 +164,10 @@
   gap: 1rem;
   flex-direction: column;
   justify-content: center;
+}
+
+.modal-tecnologia h3 {
+  font-size: 1rem;
 }
 
 .modal-tecnologia ul {

@@ -863,9 +863,9 @@ select option {
 }
 
 .Proyect-container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-  gap: 0.5rem 1rem;
+  gap: 0.5rem 1rem; */
 }
 
 .Proyect-btn {
@@ -892,8 +892,9 @@ select option {
 }
 
 .img-proyect {
-  width: 100%;
-  height: auto;
+  width: auto;
+  min-height: 5rem;
+  max-width: 8rem;
   overflow: hidden;
   object-fit: cover;
 }

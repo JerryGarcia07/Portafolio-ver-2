@@ -55,17 +55,21 @@ const ProyectInfo = ({ cardContent }) => {
           </div>
         </div>
         <div className="Modal-info">
-          <h2>{cardContent.nombre}</h2>
-          <p>{cardContent.descripcion}</p>
+          <h2 className="bangers-regular">{cardContent.nombre}</h2>
+          <p className="chakra-petch-medium-italic">
+            {cardContent.descripcion}
+          </p>
           <div className="modal-tecnologia">
-            <h3>{texts.technoligi}:</h3>
+            <h3 className="chakra-petch-bold-italic">{texts.technoligi}:</h3>
             <ul className="modal-list-tecn">
               {cardContent.tecnologia.map((el, id) => (
-                <li key={id}>{el}</li>
+                <li key={id} className="chakra-petch-medium-italic">
+                  {el}
+                </li>
               ))}
             </ul>
           </div>
-          <div className="Modal-List-btn">
+          <div className="Modal-List-btn chakra-petch-bold-italic">
             <a href={cardContent.link} target="_blank" rel="noreferrer">
               {texts.viewWeb}
             </a>
