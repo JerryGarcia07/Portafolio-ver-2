@@ -892,9 +892,8 @@ select option {
 }
 
 .img-proyect {
-  width: auto;
-  min-height: 5rem;
-  max-width: 8rem;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   object-fit: cover;
 }
@@ -903,7 +902,9 @@ select option {
   width: 100%;
   height: 100%;
   transition: all 0.3s ease;
-  aspect-ratio: 0.75;
+  aspect-ratio: 1/0.5;
+  object-fit: cover;
+  object-position: top;
 }
 
 .litle-proyect {
@@ -916,7 +917,7 @@ select option {
 
 .litle-proyect h4 {
   padding: 0.5rem 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -938,7 +939,10 @@ select option {
   }
 
   .Proyect-container {
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 0.5rem 1rem;
   }
 }
 
@@ -950,9 +954,10 @@ select option {
   }
 
   .Proyect-container {
-    grid-template-columns: repeat(auto-fit, minmax(14.5%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     margin-top: 1rem;
     gap: 0.5rem;
+    width: 100%;
   }
 
   .title-proyect {
