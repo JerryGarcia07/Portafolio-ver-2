@@ -24,6 +24,10 @@ const Menu = () => {
       setScroll(position);
     };
     window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [scroll]);
 
   return (

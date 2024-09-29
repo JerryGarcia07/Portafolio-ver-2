@@ -117,7 +117,7 @@ p {
   position: fixed;
   display: block;
   z-index: 4;
-  width: 100vw;
+  width: 100%;
   background-color: var(--firts-color);
 }
 
@@ -127,17 +127,15 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  /* .header {
-    height: 10vh;
-  } */
 }
 
 @media screen and (min-width: 1024px) {
   .header {
     width: 100%;
-    height: 10vh;
+    height: auto;
     padding: 1rem 0 0 0;
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     top: 0;
     background-color: transparent;
     transition: background-color 0.2s ease-out;
@@ -147,6 +145,7 @@ p {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    height: auto;
   }
 
   .header-background {
@@ -395,22 +394,45 @@ select option {
 /* ** General ** */
 
 /* ** Scrolll ** */
-::-webkit-scrollbar {
+/* main::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-::-webkit-scrollbar-track {
+main::-webkit-scrollbar-track {
   background: var(--firts-color);
 }
 
-::-webkit-scrollbar-thumb {
+main::-webkit-scrollbar-thumb {
   background: var(--three-color);
   border-radius: 3rem;
 }
 
-::-webkit-scrollbar-thumb:hover {
+main::-webkit-scrollbar-thumb:hover {
+  background: var(--four-color);
+} */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+main::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: var(--three-color);
+  border-radius: 1rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: var(--firts-color);
+}
+
+main::-webkit-scrollbar-thumb:hover {
   background: var(--four-color);
 }
+
+/*------------------------------*/
 
 .about {
   padding: 7rem 1rem 0 1rem;
@@ -423,9 +445,7 @@ select option {
 
 @media screen and (min-width: 768px) {
   .about {
-    /* padding: 8rem 6rem 1rem 6rem; */
     padding: 0 10rem;
-    height: 94vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -444,22 +464,33 @@ select option {
 @media screen and (min-width: 1024px) {
   main {
     /* padding: 0 10rem; */
+    /* min-width: 65rem;
+    max-width: 65rem; */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow: auto; 
+    overflow-y: scroll; */
+  }
+
+  main > * {
     min-width: 65rem;
     max-width: 65rem;
-    height: auto;
-    align-items: center;
-    position: relative;
   }
 
   .about {
-    padding: 2rem 0 0 0;
+    padding: 0;
   }
 
   .conteiner-section {
-    min-height: 80vh;
-    width: auto;
-    height: auto;
     padding-top: 0;
+    /* position: relative;
+    top: 6rem; */
+    padding-top: 6rem;
   }
 
   .title-container {
@@ -515,7 +546,6 @@ select option {
   padding: 0.5rem;
   border-radius: 0.3rem;
   margin-bottom: 1rem;
-  box-sizing: border-box;
   transition: all 0.3s ease;
   text-decoration: none;
 }
@@ -543,9 +573,11 @@ select option {
   .home-container {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0;
-    height: 80vh;
+    padding: 0;
     width: 100%;
+    height: 100%;
+    padding: auto;
+    padding-top: 6rem;
     gap: 2rem;
   }
   .home-info {
@@ -681,7 +713,8 @@ select option {
   }
 
   .his-formacion {
-    height: 50vh;
+    /* height: 50vh; */
+    height: 80vh;
   }
 
   .his-work {
@@ -721,9 +754,6 @@ select option {
 
 /* ** Habilidades ** */
 .hab-container {
-  /* padding-top: 1rem; */
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); */
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -792,7 +822,6 @@ select option {
 
 @media screen and (min-width: 1024px) {
   .hab-container {
-    /* grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr)); */
     flex-direction: row;
   }
 
@@ -866,6 +895,8 @@ select option {
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
   gap: 0.5rem 1rem; */
+  display: grid;
+  gap: 1rem 0;
 }
 
 .Proyect-btn {
@@ -874,9 +905,9 @@ select option {
   background-color: transparent;
   border: none;
   transition: all 0.3s ease;
-  gap: 0.7rem;
+  padding: 0;
+  gap: 0.5rem;
   width: 100%;
-  padding-top: 1rem;
 }
 
 .Proyect-btn:hover img {
@@ -939,10 +970,8 @@ select option {
   }
 
   .Proyect-container {
-    /* grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); */
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-    gap: 0.5rem 1rem;
+    gap: 1rem 1rem;
   }
 }
 
@@ -958,6 +987,7 @@ select option {
     margin-top: 1rem;
     gap: 0.5rem;
     width: 100%;
+    height: auto;
   }
 
   .title-proyect {
@@ -1003,9 +1033,6 @@ select option {
   position: absolute;
   z-index: 999;
   min-height: 100vh;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .area {
@@ -1135,5 +1162,7 @@ select option {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
   }
 }
