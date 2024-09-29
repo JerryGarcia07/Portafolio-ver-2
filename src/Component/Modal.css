@@ -71,17 +71,19 @@
 .modal-img-options {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 2rem 0 0 0;
+  gap: 1rem;
+  /* padding: 2rem 0 0 0; */
 }
 
-.Modal-img {
-  aspect-ratio: auto;
-}
+/* .Modal-img {
+  aspect-ratio: 16/9;
+} */
 
 .Modal-img img {
   width: 100%;
   height: 100%;
+  aspect-ratio: 16/9;
+  object-fit: scale-down;
 }
 
 .modal-btn-list {
@@ -198,11 +200,15 @@
 }
 
 .Proyect-Main {
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .proyect-main-info {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 
 .btn-select-platfor {
@@ -230,18 +236,8 @@
     aspect-ratio: auto;
   }
 
-  .Modal-img {
-    width: 75%;
-    height: auto;
-    margin: auto;
-  }
-
   .modal-btn-list {
     width: 40%;
-  }
-
-  .Modal-img img {
-    aspect-ratio: initial;
   }
 
   .Modal-info {
@@ -265,6 +261,15 @@
 
   .Modal-List-btn {
     margin-top: 1.2rem;
+  }
+
+  .Proyect-Main {
+    padding: 1rem 0;
+  }
+
+  .proyect-main-info {
+    background-color: #0e8388;
+    padding: 1.5rem;
   }
 }
 
@@ -308,6 +313,15 @@
     gap: 0.5rem;
   }
 
+  .modal-list-tecn {
+    gap: 0.3rem;
+  }
+
+  .modal-list-tecn li {
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+  }
+
   .modal-btn-list button {
     font-size: 1.5rem;
   }
@@ -319,17 +333,17 @@
     padding: 0 2rem 0 0;
   }
   .Modal-info h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: auto;
   }
 
   .Modal-info p {
     font-size: 1rem;
     text-align: left;
-    line-height: 1.6;
-    font-family: sans-serif;
     margin: 1rem 0;
-    line-height: 1.4;
+    line-height: 1.3;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
   }
 
   .Modal-info h3 {
@@ -347,14 +361,22 @@
     font-size: 0.8rem;
   }
 
+  .Modal-List-btn {
+    margin: 0;
+    padding-top: 1rem;
+  }
+
   .Modal-List-btn a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    border-radius: 0.1rem;
+    padding: 0.2rem;
   }
 
   .Proyect-Main {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
-    padding: 1rem 0 0 0;
+    padding: 0;
     width: 100%;
     height: auto;
   }
@@ -363,22 +385,23 @@
     flex-grow: 1;
     width: 100%;
     color: #fff;
+    padding: 0;
   }
 
   .proyect-main-info {
     margin: 0;
-    background-color: #0e8388;
+    /* background-color: #0e8388; */
   }
 
   .proyect-main-info h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0;
   }
 
   .proyect-main-info p,
   .proyect-main-info h3 {
     font-size: 0.8rem;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   .proyect-main-info p {
@@ -387,8 +410,7 @@
 
   .proyect-main-info .modal-modal {
     gap: 1rem;
-    flex-direction: column;
-    padding: 2rem;
+    flex-direction: row;
   }
 
   .proyect-main-info li {
@@ -400,16 +422,14 @@
     width: 15%;
   }
   .proyect-main-info .Modal-info {
-    /* padding: 0 1rem 1rem 0; */
-    padding: 0;
+    padding: 1rem 1rem 1rem 0;
   }
 
   .proyect-main-info .modal-img-options {
-    flex-direction: row-reverse;
     padding: 0;
   }
 
-  .proyect-main-info .modal-btn-list {
-    flex-direction: column;
+  .proyect-main-info .Modal-List-btn {
+    padding-top: 0.5rem;
   }
 }
