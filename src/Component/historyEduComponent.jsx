@@ -4,8 +4,9 @@ const HistoryEduComponent = ({ carrera }) => {
     <>
       <article>
         <h4>{carrera.carrera}</h4>
-        <p className="his-edu">{carrera.lugar}</p>
-        <p>{carrera.fecha}</p>
+        <p className="his-edu">
+          {carrera.lugar} <span>{carrera.fecha}</span>
+        </p>
       </article>
     </>
   );

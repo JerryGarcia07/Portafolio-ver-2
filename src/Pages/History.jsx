@@ -2,8 +2,6 @@
 import { useContext, useEffect, useState } from "react";
 import LenguageContext from "../Context/LenguageContext";
 import HistoryEduComponent from "../Component/historyEduComponent";
-import HistoryWorComponent from "../Component/historyWorComponent";
-import img01 from "../assets/pexels-flo-dahm-699459.webp";
 import img02 from "../assets/pexels-anna-shvets-3987020.webp";
 
 const History = () => {
@@ -28,26 +26,24 @@ const History = () => {
             {viewImg && <img src={img02} alt="Computo02" />}
           </div>
           <div className="work-info his-info">
-            <h3>{texts.formaSubtitle02}</h3>
-            {texts.formList02.map((el) => (
-              <HistoryWorComponent
-                key={el.id}
-                work={el}
-                tecnologia={texts.technoligi}
-                rol={texts.rol}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="his-formacion">
-          <div className="formacion-img">
-            {viewImg && <img src={img01} alt="Computo01" />}
-          </div>
-          <div className="formacion-info his-info">
-            <h3>{texts.formaSubtitle01}</h3>
-            {texts.formList01.map((el) => (
-              <HistoryEduComponent key={el.id} carrera={el} />
-            ))}
+            <p className="chakra-petch-medium-italic">
+              Soy egresado de la carrera de Ingeniería de Sistemas de la
+              Universidad César Vallejo (UCV). Durante el último año, he
+              enfocado mi formación en el desarrollo web, especializándome en el{" "}
+              <span>Front-end</span>. Cuento con experiencia profesional gracias
+              a mis prácticas en la Universidad Señor de Sipán (USS) y en la
+              tienda Ocassione. Me considero una persona perseverante,
+              comprometida y creativa, con habilidades para trabajar en equipo y
+              comunicarme de manera efectiva. Estas competencias me han
+              permitido colaborar exitosamente con otros equipos. Además, poseo
+              un fuerte deseo de superación y aprendizaje continuo.
+            </p>
+            <div className="formacion-info his-info">
+              <h3>{texts.formaSubtitle01}</h3>
+              {texts.formList01.map((el) => (
+                <HistoryEduComponent key={el.id} carrera={el} />
+              ))}
+            </div>
           </div>
         </div>
       </section>
