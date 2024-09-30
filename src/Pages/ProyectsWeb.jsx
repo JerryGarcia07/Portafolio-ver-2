@@ -8,7 +8,9 @@ const ProyectWeb = () => {
   const { proWeb } = useContext(LenguageContext);
   return (
     <section className="about conteiner-section">
-      <h2 className="title-container title-proyect">{texts.proyectTitle}</h2>
+      <h2 className="title-container title-proyect bangers-regular">
+        {texts.proyectTitle}
+      </h2>
       <MainProyect proWeb={proWeb}></MainProyect>
       <div className="Proyect-container">
         {proWeb.map((el) => {

@@ -126,9 +126,6 @@ p {
   height: 100%;
 }
 
-@media screen and (min-width: 768px) {
-}
-
 @media screen and (min-width: 1024px) {
   .header {
     width: 100%;
@@ -486,7 +483,8 @@ main::-webkit-scrollbar-thumb:hover {
   }
 
   .title-container {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -684,7 +682,8 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .his-info span {
-  color: var(--three-color);
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -903,6 +902,7 @@ main::-webkit-scrollbar-thumb:hover {
   height: auto;
   overflow: hidden;
   object-fit: cover;
+  border: solid var(--white-pure) 0.1rem;
 }
 
 .img-proyect img {

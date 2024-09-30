@@ -15,7 +15,7 @@ const translations = {
     homeSubTitle: "Soy",
     homeSubTitle1: "Programador Front-End",
     homeContent:
-      "Soy egresado de Ingeniería de Sistemas (UCV) con experiencia en desarrollo web a través de prácticas en la USS y Ocassione. Me considero perseverante, comprometido, creativo y con habilidades en trabajo en equipo y comunicación. Actualmente, busco desarrollar una línea de carrera en el ámbito web.",
+      "Soy una persona perseverante y autodidacta, con un fuerte deseo de aprender y superarme constantemente. Mi objetivo es adquirir nuevos conocimientos que me permitan innovar y ser cada vez más competente.",
     homebutton: "Ver mi CV",
     navHome: "Home",
     navProyect: "Proyectos",
@@ -39,7 +39,7 @@ const translations = {
       {
         id: "ed02",
         carrera: "Diseñador Gráfico",
-        lugar: "Instituto americano, Lima.",
+        lugar: "Instituto americano, Lima",
         fecha: "(Ene-2012/Jun-2014)",
       },
     ],

@@ -19,7 +19,7 @@ const History = () => {
 
   return (
     <section className="about histo-container conteiner-section">
-      <h2 className="title-container">{texts.formaTitle}</h2>
+      <h2 className="title-container bangers-regular">{texts.formaTitle}</h2>
       <section>
         <div className="his-work">
           <div className="work-img">
@@ -30,13 +30,13 @@ const History = () => {
               Soy egresado de la carrera de Ingeniería de Sistemas de la
               Universidad César Vallejo (UCV). Durante el último año, he
               enfocado mi formación en el desarrollo web, especializándome en el{" "}
-              <span>Front-end</span>. Cuento con experiencia profesional gracias
-              a mis prácticas en la Universidad Señor de Sipán (USS) y en la
-              tienda Ocassione. Me considero una persona perseverante,
-              comprometida y creativa, con habilidades para trabajar en equipo y
-              comunicarme de manera efectiva. Estas competencias me han
-              permitido colaborar exitosamente con otros equipos. Además, poseo
-              un fuerte deseo de superación y aprendizaje continuo.
+              Front-end. Cuento con experiencia profesional gracias a mis
+              prácticas en la Universidad Señor de Sipán (USS) y en la tienda
+              Ocassione. Me considero una persona perseverante, comprometida y
+              creativa, con habilidades para trabajar en equipo y comunicarme de
+              manera efectiva. Estas competencias me han permitido colaborar
+              exitosamente con otros equipos. Además, poseo un fuerte deseo de
+              superación y aprendizaje continuo.
             </p>
             <div className="formacion-info his-info">
               <h3>{texts.formaSubtitle01}</h3>

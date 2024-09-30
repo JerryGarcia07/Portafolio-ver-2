@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <section className="about conteiner-section">
-      <h2 className="title-container">{texts.skillTitle}</h2>
+      <h2 className="title-container bangers-regular">{texts.skillTitle}</h2>
       <article className="hab-container">
         <div className="hab-conte">
           <h3>Dominadas</h3>

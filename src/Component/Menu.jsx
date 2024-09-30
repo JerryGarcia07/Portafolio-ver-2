@@ -54,6 +54,7 @@ const Menu = () => {
             >
               {texts.navProyect}
             </NavLink>
+
             <NavLink
               to="/formacion"
               onClick={handleMenu}
