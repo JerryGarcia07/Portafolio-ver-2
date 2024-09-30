@@ -646,11 +646,16 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .his-info h3 {
-  text-align: center;
-  padding: 1rem 0;
+  /* text-align: center; */
+  padding: 0.5rem 0;
 }
+
 .his-info article {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.his-edu {
+  margin: 0;
 }
 
 .his-formacion h3,
@@ -674,8 +679,8 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .his-info p {
-  margin: 0.3rem 0 0 0;
   line-height: 1.4;
+  margin: 0;
 }
 
 .his-info span {
@@ -687,7 +692,6 @@ main::-webkit-scrollbar-thumb:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 1rem;
   }
 
   .his-formacion,
@@ -695,34 +699,25 @@ main::-webkit-scrollbar-thumb:hover {
     display: flex;
     padding: 0;
     gap: 2rem;
-    height: auto;
-  }
-
-  .his-work {
-    height: auto;
-    flex-direction: row-reverse;
+    height: 25rem;
   }
 
   .formacion-img,
   .formacion-info,
   .work-img,
   .work-info {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     width: 100%;
     height: auto;
   }
 
-  .formacion-img,
-  .work-img {
-    padding: 1rem 0;
-    aspect-ratio: auto;
+  .work-info {
+    padding-top: 1rem;
   }
 
-  .formacion-info,
-  .work-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .formacion-img,
+  .work-img {
+    aspect-ratio: auto;
   }
 
   .formacion-img img,
