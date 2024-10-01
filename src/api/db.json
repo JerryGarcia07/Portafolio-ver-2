@@ -116,7 +116,7 @@
         "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_tablet.webp",
         "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_celular.webp"
       },
-      "main": true,
+      "main": false,
       "github": "https://github.com/PandaAsia/AnimeFolder"
     },
     {
@@ -153,7 +153,7 @@
       "id": "Proweb10",
       "nombre": "TO-DO List",
       "descripcion": "Es un proyecto lo realice por que es una prueba tecnica de una empresa que realice y simplemente lo hice copiando casi exacto de esa prueba tecnica",
-      "tecnologia": ["HTML", "CSS", "JavaScript"],
+      "tecnologia": ["Html", "Css", "JavaScript"],
       "link": "https://pandaasia.github.io/To-DO-List/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect10.webp",
       "ListImg": {
@@ -163,6 +163,36 @@
       },
       "main": false,
       "github": "https://github.com/PandaAsia/To-DO-List"
+    },
+    {
+      "id": "Proweb11",
+      "nombre": "Captura de Imagenes",
+      "descripcion": "Este es un proyecto en el que implementé la captura de imágenes utilizando la biblioteca dom-to-image-more. El objetivo principal fue profundizar en el manejo de los estados en React, especialmente a través del uso de Context.",
+      "tecnologia": ["Html", "Css", "JavaScript", "Figma", "Tailwind", "React"],
+      "link": "https://pandaasia.github.io/CaptureImg/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect11.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_celular.webp"
+      },
+      "main": true,
+      "github": "https://github.com/PandaAsia/CaptureImg"
+    },
+    {
+      "id": "Proweb12",
+      "nombre": "Juego del Michi (Tic tac Toi)",
+      "descripcion": "Este es un proyecto del clásico juego de Tic-Tac-Toe, que me ayudó a mejorar mi lógica de programación y a profundizar en mi comprensión de React.",
+      "tecnologia": ["Html", "Css", "JavaScript", "Tailwind", "React"],
+      "link": "https://pandaasia.github.io/Proyecto-Michi-Midu/",
+      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect12.webp",
+      "ListImg": {
+        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_celular.webp"
+      },
+      "main": false,
+      "github": "https://github.com/PandaAsia/Proyecto-Michi-Midu"
     }
   ],
   "ProyectWebEn": [
