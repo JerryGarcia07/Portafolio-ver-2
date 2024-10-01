@@ -3,8 +3,8 @@
     {
       "id": "Proweb01",
       "nombre": "Sociable OFT",
-      "descripcion": "Sociable OFT es una empresa de software, cuya funcionalidad es de desarrollo de páginas web hacia otras empresas, era un proyecto que inicio gracias a un compañero de la universidad, mi participación fue en la parte de maquetación y desarrollo de esta web, mientras mi compañero es de back-end. En esta experiencia aprendí sobre conceptos básicos del desarrollo web.",
-      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "descripcion": "Sociable OFT es una empresa de software dedicada al desarrollo de páginas web para otras empresas. El proyecto surgió gracias a un compañero de la universidad. Durante esta experiencia, aprendí los conceptos básicos del desarrollo web.",
+      "tecnologia": ["Adobe", "Html", "Css", "JavaScript"],
       "link": "https://pandaasia.github.io/Sociable/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.webp",
       "ListImg": {
@@ -19,7 +19,7 @@
       "id": "Proweb02",
       "nombre": "Gfriend",
       "descripcion": "Una vez aprendió sobre los fundamentos del desarrollo web, realice un página muy básica que mi grupo musical favorito, aprendí también sobre la maquetación, como novato, el diseño está inspirado de otra página web, y al terminar aún me falta mucho que aprender.",
-      "tecnologia": ["Adobe XD", "HTML", "CSS"],
+      "tecnologia": ["Adobe XD", "Html", "Css"],
       "link": "https://pandaasia.github.io/Gfriend/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.webp",
       "ListImg": {
@@ -34,7 +34,7 @@
       "id": "Proweb03",
       "nombre": "Elimar Moda",
       "descripcion": "Elimar Moda es una empresa de costureros, realizar trajes y vestido a medida, ellos necesitaban una página web, un e-commerce, para poder vender sus productos, era una gran oportunidad para ellos, este proyecto me encargué en la parte de front-end, aprendí más temas de css, como son lo flexbox y grid, y animación, y fundamento de javascrips.",
-      "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
+      "tecnologia": ["Adobe XD", "Html", "Css", "JavaScript"],
       "link": "https://pandaasia.github.io/Elimar/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.webp",
       "ListImg": {
@@ -48,8 +48,8 @@
     {
       "id": "Proweb04",
       "nombre": "Prueba Stroop",
-      "descripcion": "Al aprender los fundamentos de javascrip, desarrolle una web, la inspiración fue la prueba stroop, una evaluación de test cognitivo, que evalúa la atención, pude replicar todas las funciones como reglas del test, donde al final te muestra un resultado, con el proyecto me di cuenta lo mucho que me falta, para realizar proyecto muy grandes debo tener conocimiento más sólido.",
-      "tecnologia": ["HTML", "CSS", "JavaScript"],
+      "descripcion": "Al aprender los fundamentos de javascrip, desarrolle esta web, la inspiración fue la prueba stroop, una evaluación de test cognitivo, que evalúa la atención, pude replicar todas las funciones como reglas del test.",
+      "tecnologia": ["Html", "Css", "JavaScript"],
       "link": "https://pandaasia.github.io/game-color/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.webp",
       "ListImg": {
@@ -68,8 +68,8 @@
         "Figma",
         "Photoshop",
         "Illustrator",
-        "HTML",
-        "CSS",
+        "Html",
+        "Css",
         "JavaScript"
       ],
       "link": "https://pandaasia.github.io/",
@@ -85,8 +85,8 @@
     {
       "id": "Proweb06",
       "nombre": "Anime",
-      "descripcion": "Es un Proyecto Personal de anime, este proyecto lo diseñe como desarrolle en la parte de front-end y es estática, ya que aún me falta varios conocimientos de back-end para poder completarlo, pero lo voy a continuar, pero avanzando poco a poco, cuando voy adquiriendo conocimientos.",
-      "tecnologia": ["Figma", "Html", "CSS", "JavaScript"],
+      "descripcion": "Este es un proyecto personal sobre anime, en el cual diseñé y desarrollé la parte de Front-end. Se trata de una página estática en la que apliqué mis conocimientos en animación con CSS.",
+      "tecnologia": ["Figma", "Html", "Css", "JavaScript"],
       "link": "https://pandaasia.github.io/AnimeWeb/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.webp",
       "ListImg": {
@@ -100,11 +100,11 @@
     {
       "id": "Proweb07",
       "nombre": "Anime-Folder",
-      "descripcion": "Es un Proyecto Personal de anime, este proyecto utilice la API jikan, que es un repositorio de anime, diseñe una página, para mostrar toda la información, en el proyecto aprendí Bootstrap, para la maquetación de la página, reforcé mis conocimiento en React, un proyecto que disfrute desarropando.",
+      "descripcion": "Es un Proyecto Personal de anime, este proyecto utilice la API jikan, que es un repositorio de anime, diseñe la página, en el proyecto aprendí Bootstrap, para la maquetación de la página, reforcé mis conocimiento en React.",
       "tecnologia": [
         "Figma",
-        "HTML",
-        "CSS",
+        "Html",
+        "Css",
         "JavaScript",
         "React",
         "Bootstrap"
@@ -122,8 +122,8 @@
     {
       "id": "Proweb08",
       "nombre": "Pokemos Favoritos",
-      "descripcion": "Bienvenido a nuestro portal Pokémon, el destino definitivo para los amantes de estas fascinantes criaturas. Aquí, encontrarás la herramienta perfecta para descubrir a tu compañero Pokémon ideal. Organizados por tipo y generación, nuestra extensa base de datos te permite explorar y seleccionar entre una variedad de Pokémon. ¡Empieza tu viaje y encuentra a tu Pokémon favorito hoy mismo!",
-      "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
+      "descripcion": "Este es un proyecto de Pokémon en el que utilicé la PokéAPI, no para mostrar información general, sino para permitir a los usuarios seleccionar su Pokémon favorito por generación y tipo.",
+      "tecnologia": ["Figma", "Html", "Css", "JavaScript", "React", "Tailwind"],
       "link": "https://pandaasia.github.io/Favorite-Pokemon/",
       "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
       "ListImg": {
