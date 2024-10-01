@@ -101,7 +101,6 @@
   font-size: 2rem;
   padding: 0.5rem 0.7rem;
   background-color: transparent;
-  /* background-color: #cbe4de; */
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -200,20 +199,14 @@
 }
 
 .Proyect-Main {
-  /* padding-bottom: 1rem; */
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.proyect-main-info {
-  /* margin: 1rem 0; */
-}
-
 .btn-select-platfor {
   background-color: #cbe4de !important;
-  /* border: 0.2rem solid #cbe4de !important; */
 }
 
 @media screen and (min-width: 768px) {
@@ -232,7 +225,6 @@
 
   .modal-img-options {
     padding: 0;
-    /* height: 100%; */
     aspect-ratio: auto;
   }
 
@@ -251,6 +243,11 @@
 
   .Modal-info p {
     margin: 1rem 0 1.5rem 0;
+  }
+
+  .Modal-List-btn a {
+    background-color: #cbe4de;
+    color: #2c3333;
   }
 
   .modal-tecnologia {
@@ -273,6 +270,10 @@
   }
   .modal-list-tecn li {
     background-color: #2c3333;
+  }
+
+  .Proyect-Main .proyect-main-info {
+    color: #fff;
   }
 }
 
@@ -387,13 +388,11 @@
   .Proyect-Main .proyect-main-info {
     flex-grow: 1;
     width: 100%;
-    color: #fff;
     padding: 0;
   }
 
   .proyect-main-info {
     margin: 0;
-    /* background-color: #0e8388; */
   }
 
   .proyect-main-info h2 {

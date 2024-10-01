@@ -11,7 +11,8 @@ const initialMaqueEs = ProyectMaque["ProyectMaqEs"].slice().reverse();
 const initialMaqueEn = ProyectMaque["ProyectMaqEn"].slice().reverse();
 const translations = {
   es: {
-    homeTitle: "Hola, Soy Jerry Garcia",
+    homeTitle: "Hola, Soy",
+    homeTitle2: "Jerry Garcia",
     homeSubTitle: "Soy",
     homeSubTitle1: "Programador Front-End",
     homeContent:

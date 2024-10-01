@@ -438,6 +438,7 @@ main::-webkit-scrollbar-thumb:hover {
 
 .title-container {
   margin-bottom: 1rem;
+  color: var(--four-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -497,6 +498,7 @@ main::-webkit-scrollbar-thumb:hover {
 
 .home-info h1 {
   padding-bottom: 1.5rem;
+  color: var(--four-color);
 }
 
 .home-subTitle {
