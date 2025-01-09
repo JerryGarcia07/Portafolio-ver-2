@@ -5,60 +5,60 @@
       "nombre": "Sociable OFT",
       "descripcion": "Sociable OFT es una empresa de software dedicada al desarrollo de páginas web para otras empresas. El proyecto surgió gracias a un compañero de la universidad. Durante esta experiencia, aprendí los conceptos básicos del desarrollo web.",
       "tecnologia": ["Adobe", "Html", "Css", "JavaScript"],
-      "link": "https://pandaasia.github.io/Sociable/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.webp",
+      "link": "https://jerrygarcia07.github.io/Sociable/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect06.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Sociable"
+      "github": "https://github.com/jerrygarcia07/Sociable"
     },
     {
       "id": "Proweb02",
       "nombre": "Gfriend",
       "descripcion": "Una vez aprendió sobre los fundamentos del desarrollo web, realice un página muy básica que mi grupo musical favorito, aprendí también sobre la maquetación, como novato, el diseño está inspirado de otra página web, y al terminar aún me falta mucho que aprender.",
       "tecnologia": ["Adobe XD", "Html", "Css"],
-      "link": "https://pandaasia.github.io/Gfriend/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.webp",
+      "link": "https://jerrygarcia07.github.io/Gfriend/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect03.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Gfriend"
+      "github": "https://github.com/jerrygarcia07/Gfriend"
     },
     {
       "id": "Proweb03",
       "nombre": "Elimar Moda",
       "descripcion": "Elimar Moda es una empresa de costureros, realizar trajes y vestido a medida, ellos necesitaban una página web, un e-commerce, para poder vender sus productos, era una gran oportunidad para ellos, este proyecto me encargué en la parte de front-end, aprendí más temas de css, como son lo flexbox y grid, y animación, y fundamento de javascrips.",
       "tecnologia": ["Adobe XD", "Html", "Css", "JavaScript"],
-      "link": "https://pandaasia.github.io/Elimar/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.webp",
+      "link": "https://jerrygarcia07.github.io/Elimar/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect04.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Elimar"
+      "github": "https://github.com/jerrygarcia07/Elimar"
     },
     {
       "id": "Proweb04",
       "nombre": "Prueba Stroop",
       "descripcion": "Al aprender los fundamentos de javascrip, desarrolle esta web, la inspiración fue la prueba stroop, una evaluación de test cognitivo, que evalúa la atención, pude replicar todas las funciones como reglas del test.",
       "tecnologia": ["Html", "Css", "JavaScript"],
-      "link": "https://pandaasia.github.io/game-color/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.webp",
+      "link": "https://jerrygarcia07.github.io/game-color/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect05.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/game-color"
+      "github": "https://github.com/jerrygarcia07/game-color"
     },
     {
       "id": "Proweb05",
@@ -72,30 +72,30 @@
         "Css",
         "JavaScript"
       ],
-      "link": "https://pandaasia.github.io/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.webp",
+      "link": "https://jerrygarcia07.github.io/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect01.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/pandaasia.github.io"
+      "github": "https://github.com/jerrygarcia07/pandaasia.github.io"
     },
     {
       "id": "Proweb06",
       "nombre": "Anime",
       "descripcion": "Este es un proyecto personal sobre anime, en el cual diseñé y desarrollé la parte de Front-end. Se trata de una página estática en la que apliqué mis conocimientos en animación con CSS.",
       "tecnologia": ["Figma", "Html", "Css", "JavaScript"],
-      "link": "https://pandaasia.github.io/AnimeWeb/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.webp",
+      "link": "https://jerrygarcia07.github.io/AnimeWeb/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect02.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/AnimeWeb"
+      "github": "https://github.com/jerrygarcia07/AnimeWeb"
     },
     {
       "id": "Proweb07",
@@ -109,90 +109,90 @@
         "React",
         "Bootstrap"
       ],
-      "link": "https://pandaasia.github.io/AnimeFolder/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.webp",
+      "link": "https://jerrygarcia07.github.io/AnimeFolder/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect07.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/AnimeFolder"
+      "github": "https://github.com/jerrygarcia07/AnimeFolder"
     },
     {
       "id": "Proweb08",
       "nombre": "Pokemos Favoritos",
       "descripcion": "Este es un proyecto de Pokémon en el que utilicé la PokéAPI, no para mostrar información general, sino para permitir a los usuarios seleccionar su Pokémon favorito por generación y tipo.",
       "tecnologia": ["Figma", "Html", "Css", "JavaScript", "React", "Tailwind"],
-      "link": "https://pandaasia.github.io/Favorite-Pokemon/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "link": "https://jerrygarcia07.github.io/Favorite-Pokemon/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect08.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_celular.webp"
       },
       "main": true,
-      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
+      "github": "https://github.com/jerrygarcia07/Favorite-Pokemon/tree/gh-pages"
     },
     {
       "id": "Proweb09",
       "nombre": "Tesla",
       "descripcion": "Es una copia de la pagina principal de la empresa Tesla, este proyecto, lo realice para practicar mi JavaScript, como mi css y tener un menor manejo en React",
       "tecnologia": ["HTML", "CSS", "JavaScript", "React", "tailwind"],
-      "link": "https://pandaasia.github.io/Tesla-Copy/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect09.webp",
+      "link": "https://jerrygarcia07.github.io/Tesla-Copy/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect09.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/09_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/09_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/09_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/09_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Tesla-Copy"
+      "github": "https://github.com/jerrygarcia07/Tesla-Copy"
     },
     {
       "id": "Proweb10",
       "nombre": "TO-DO List",
       "descripcion": "Es un proyecto lo realice por que es una prueba tecnica de una empresa que realice y simplemente lo hice copiando casi exacto de esa prueba tecnica",
       "tecnologia": ["Html", "Css", "JavaScript"],
-      "link": "https://pandaasia.github.io/To-DO-List/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect10.webp",
+      "link": "https://jerrygarcia07.github.io/To-DO-List/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect10.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/10_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/10_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/10_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/10_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/To-DO-List"
+      "github": "https://github.com/jerrygarcia07/To-DO-List"
     },
     {
       "id": "Proweb11",
       "nombre": "Captura de Imagenes",
       "descripcion": "Este es un proyecto en el que implementé la captura de imágenes utilizando la biblioteca dom-to-image-more. El objetivo principal fue profundizar en el manejo de los estados en React, especialmente a través del uso de Context.",
       "tecnologia": ["Html", "Css", "JavaScript", "Figma", "Tailwind", "React"],
-      "link": "https://pandaasia.github.io/CaptureImg/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect11.webp",
+      "link": "https://jerrygarcia07.github.io/CaptureImg/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect11.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/11_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/11_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/11_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/11_celular.webp"
       },
       "main": true,
-      "github": "https://github.com/PandaAsia/CaptureImg"
+      "github": "https://github.com/jerrygarcia07/CaptureImg"
     },
     {
       "id": "Proweb12",
       "nombre": "Juego del Michi (Tic tac Toi)",
       "descripcion": "Este es un proyecto del clásico juego de Tic-Tac-Toe, que me ayudó a mejorar mi lógica de programación y a profundizar en mi comprensión de React.",
       "tecnologia": ["Html", "Css", "JavaScript", "Tailwind", "React"],
-      "link": "https://pandaasia.github.io/Proyecto-Michi-Midu/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect12.webp",
+      "link": "https://jerrygarcia07.github.io/Proyecto-Michi-Midu/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect12.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/12_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/12_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/12_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/12_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Proyecto-Michi-Midu"
+      "github": "https://github.com/jerrygarcia07/Proyecto-Michi-Midu"
     }
   ],
   "ProyectWebEn": [
@@ -201,60 +201,60 @@
       "nombre": "Sociable OFT",
       "descripcion": "Sociable OFT is a software company, whose functionality is to develop web pages for other companies. It was a project that I started thanks to a university classmate. My participation was in the layout and development of this website, while my classmate It's back-end. In this experience I learned about basic concepts of web development.",
       "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
-      "link": "https://pandaasia.github.io/Sociable/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect06.webp",
+      "link": "https://jerrygarcia07.github.io/Sociable/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect06.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/06_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/06_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Sociable"
+      "github": "https://github.com/jerrygarcia07/Sociable"
     },
     {
       "id": "Proweb02",
       "nombre": "Gfriend",
       "descripcion": "Once I learned about the fundamentals of web development, I made a very basic page for my favorite musical group, I also learned about layout, as a newbie, the design is inspired from another web page, and when I finish I still have a lot to learn.",
       "tecnologia": ["Adobe XD", "HTML", "CSS"],
-      "link": "https://pandaasia.github.io/Gfriend/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect03.webp",
+      "link": "https://jerrygarcia07.github.io/Gfriend/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect03.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/03-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/03-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Gfriend"
+      "github": "https://github.com/jerrygarcia07/Gfriend"
     },
     {
       "id": "Proweb03",
       "nombre": "Elimar Moda",
       "descripcion": "Elimar Moda is a company of seamstresses, making custom suits and dresses, they needed a website, an e-commerce, to be able to sell their products, it was a great opportunity for them, I was in charge of this project on the front-end part , I learned more CSS topics, such as flexbox and grid, and animation, and the foundation of javascript.",
       "tecnologia": ["Adobe XD", "HTML", "CSS", "JavaScript"],
-      "link": "https://pandaasia.github.io/Elimar/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect04.webp",
+      "link": "https://jerrygarcia07.github.io/Elimar/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect04.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/04-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/04-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/Elimar"
+      "github": "https://github.com/jerrygarcia07/Elimar"
     },
     {
       "id": "Proweb04",
       "nombre": "Test Stroop",
       "descripcion": "When learning the fundamentals of javascrip, I developed a website, the inspiration was the stroop test, a cognitive test evaluation, which evaluates attention, I was able to replicate all the functions as rules of the test, where at the end it shows you a result, with the project I realized how much I lack, to carry out very large projects I must have more solid knowledge.",
       "tecnologia": ["HTML", "CSS", "JavaScript"],
-      "link": "https://pandaasia.github.io/game-color/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect05.webp",
+      "link": "https://jerrygarcia07.github.io/game-color/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect05.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/05-celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/05-celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/game-color"
+      "github": "https://github.com/jerrygarcia07/game-color"
     },
     {
       "id": "Proweb05",
@@ -268,27 +268,27 @@
         "CSS",
         "JavaScript"
       ],
-      "link": "https://pandaasia.github.io/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect01.webp",
+      "link": "https://jerrygarcia07.github.io/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect01.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/01_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/01_celular.webp"
       },
       "main": false,
-      "github": "https://github.com/PandaAsia/pandaasia.github.io"
+      "github": "https://github.com/jerrygarcia07/pandaasia.github.io"
     },
     {
       "id": "Proweb06",
       "nombre": "Anime",
       "descripcion": "It is a Personal Anime Project, I designed this project as I developed in the front-end part and it is static, since I still lack some back-end knowledge to be able to complete it, but I am going to continue it, but advancing little by little , when I am acquiring knowledge.",
       "tecnologia": ["Figma", "HTML", "CSS", "JavaScript"],
-      "link": "https://pandaasia.github.io/AnimeWeb/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect02.webp",
+      "link": "https://jerrygarcia07.github.io/AnimeWeb/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect02.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/02_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/02_celular.webp"
       },
       "main": false,
       "github": "https://github.com/PandaAsia/AnimeWeb"
@@ -305,45 +305,45 @@
         "React",
         "Bootstrap"
       ],
-      "link": "https://pandaasia.github.io/AnimeFolder/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect07.webp",
+      "link": "https://jerrygarcia07.github.io/AnimeFolder/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect07.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/07_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/07_celular.webp"
       },
       "main": true,
-      "github": "https://github.com/PandaAsia/AnimeFolder"
+      "github": "https://github.com/jerrygarcia07/AnimeFolder"
     },
     {
       "id": "Proweb08",
       "nombre": "Favorite Pokemos",
       "descripcion": "Welcome to our Pokémon portal, the definitive destination for lovers of these fascinating creatures. Here, you will find the perfect tool to discover your ideal Pokémon partner. Organized by type and generation, our extensive database allows you to explore and select from a variety of Pokémon. Start your journey and find your favorite Pokémon today!",
       "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
-      "link": "https://pandaasia.github.io/Favorite-Pokemon/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "link": "https://jerrygarcia07.github.io/Favorite-Pokemon/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect08.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_celular.webp"
       },
       "main": true,
-      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
+      "github": "https://github.com/jerrygarcia07/Favorite-Pokemon/tree/gh-pages"
     },
     {
       "id": "Proweb09",
       "nombre": "Tesla",
       "descripcion": "Welcome to our Pokémon portal, the definitive destination for lovers of these fascinating creatures. Here, you will find the perfect tool to discover your ideal Pokémon partner. Organized by type and generation, our extensive database allows you to explore and select from a variety of Pokémon. Start your journey and find your favorite Pokémon today!",
       "tecnologia": ["Figma", "HTML", "CSS", "JavaScript", "React"],
-      "link": "https://pandaasia.github.io/Favorite-Pokemon/",
-      "img": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/proyect08.webp",
+      "link": "https://jerrygarcia07.github.io/Favorite-Pokemon/",
+      "img": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/proyect08.webp",
       "ListImg": {
-        "lapto": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_laptop.webp",
-        "tablet": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_tablet.webp",
-        "celular": "https://raw.githubusercontent.com/PandaAsia/Portadas01/main/08_celular.webp"
+        "lapto": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_laptop.webp",
+        "tablet": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_tablet.webp",
+        "celular": "https://raw.githubusercontent.com/jerrygarcia07/Portadas01/main/08_celular.webp"
       },
       "main": true,
-      "github": "https://github.com/PandaAsia/Favorite-Pokemon/tree/gh-pages"
+      "github": "https://github.com/jerrygarcia07/Favorite-Pokemon/tree/gh-pages"
     }
   ]
 }
